@@ -11,7 +11,7 @@ let package = Package(
             targets: ["SSH"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Lavmint/spm-libssh.git", .branch("master"))
+        .package(url: "https://github.com/Lavmint/spm-libssh.git", from: "1.0.0")
     ],
     targets: [
         .target(
